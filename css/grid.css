@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 4px;
+    background-color: rgb(24, 21, 18);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.grid-item, .grid-item1, .grid-item2 {
+    background-color: rgb(227, 227, 241);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
